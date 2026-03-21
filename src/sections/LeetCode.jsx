@@ -4,17 +4,17 @@ import { SiLeetcode } from 'react-icons/si'
 
 const LeetCode = () => {
   const stats = [
-    { label: "Total Solved", value: "450+", color: "green" },
-    { label: "Easy", value: "120", color: "blue" },
-    { label: "Medium", value: "280", color: "yellow" },
-    { label: "Hard", value: "50", color: "red" },
+    { label: "Total Solved", value: "262", color: "green" },
+    { label: "Easy", value: "118", color: "blue" },
+    { label: "Medium", value: "125", color: "yellow" },
+    { label: "Hard", value: "19", color: "red" },
   ]
 
   const timeline = [
-    { date: "Jan 2024", event: "Reached Top 5% Global Rank", lang: "Python" },
-    { date: "Dec 2023", event: "Solved 400th Problem", lang: "C++" },
-    { date: "Sep 2023", event: "Won Biweekly Contest 110", lang: "Java" },
-    { date: "May 2023", event: "Earned Knight Badge", lang: "Python" },
+    { date: "2025", event: "100 Days Badge Achieved", lang: "C++" },
+    { date: "2025", event: "Max Streak: 17 Days", lang: "DSA" },
+    { date: "2025", event: "Total Active Days: 165", lang: "Consistency" },
+    { date: "2024", event: "Solved 200+ Problems", lang: "C++" },
   ]
 
   return (

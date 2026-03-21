@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Inter:wght@400;500;600&display=swap');
+
 
 :root {
   /* Premium Minimalist IDE Palette */
@@ -167,6 +167,27 @@ body {
 
 .shimmer-hover:hover::before {
   left: 100%;
+}
+
+/* Code-themed skeleton */
+.skeleton-code {
+  background: linear-gradient(90deg, #1e1e1e 25%, #2d2d30 50%, #1e1e1e 75%);
+  background-size: 200% 100%;
+  animation: shimmer 2s linear infinite;
+  border-radius: 8px;
+}
+
+.skeleton-line {
+  height: 1rem;
+  background: #2d2d30;
+  border-radius: 4px;
+  margin: 0.25rem 0;
+  animation: pulse-soft 1.5s ease-in-out infinite;
+}
+
+.skeleton-comment {
+  color: #6a9955;
+  font-style: italic;
 }
 
 /* Premium Typography */
