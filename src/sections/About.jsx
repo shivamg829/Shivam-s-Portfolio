@@ -4,37 +4,28 @@ import { FaUser, FaQuoteLeft, FaTerminal, FaCode } from 'react-icons/fa'
 const About = () => {
   return (
     <div className="p-8 font-mono max-w-4xl mx-auto">
-      {/* Markdown Header */}
-      <div className="mb-12 border-b border-slate-800 pb-8 flex flex-col items-center text-center relative overflow-hidden">
-         <div className="absolute top-0 right-0 w-32 h-32 bg-indigo-500/5 blur-[80px]" />
-         <div className="text-slate-500 text-[10px] mb-4 uppercase tracking-[0.3em]"># profile.md</div>
-         <h1 className="text-4xl font-black text-white tracking-tighter uppercase mb-4">
-            Shivam <span className="text-indigo-500">_N</span>
+      <div className="mb-12 border-b border-slate-700 pb-8 text-center relative">
+         <div className="text-slate-500 text-[11px] mb-6 uppercase tracking-[0.3em]"># about.jsx</div>
+         <h1 className="text-4xl md:text-5xl font-black text-white tracking-tight mb-4">
+            Shivam Gangwar
          </h1>
-         <div className="flex gap-4 text-[10px] font-bold text-slate-400 uppercase tracking-widest">
-            <span className="flex items-center gap-1.5"><FaUser size={10} className="text-cyan-400" /> Full Stack Architect</span>
-            <span className="flex items-center gap-1.5"><FaCode size={10} className="text-purple-400" /> Problem Solver</span>
+         <div className="flex flex-col sm:flex-row gap-4 text-sm font-semibold text-slate-300 max-w-md mx-auto">
+            <span className="flex items-center gap-2 justify-center sm:justify-start">
+               <FaUser size={14} className="text-sky-400" /> Full-Stack Developer
+            </span>
+            <span className="flex items-center gap-2 justify-center sm:justify-start">
+               <FaCode size={14} className="text-emerald-400" /> LPU'27
+            </span>
          </div>
       </div>
-
-      {/* Main Content Sections */}
       <div className="space-y-16">
-         {/* Bio */}
          <section>
-            <div className="flex items-center gap-3 text-indigo-400 font-bold mb-6">
-               <span className="text-lg">##</span>
-               <span className="text-[10px] uppercase tracking-[0.3em] font-black">The_Mission</span>
-            </div>
-            <div className="glass-card p-10 border-slate-700/50 leading-relaxed relative overflow-hidden group bg-slate-900/40">
-               <div className="absolute inset-0 bg-indigo-500/[0.05] opacity-0 group-hover:opacity-100 transition-opacity" />
-               <FaQuoteLeft className="absolute -top-4 -left-4 text-8xl text-slate-900 group-hover:text-indigo-500/10 transition-colors" />
-               <p className="text-white relative z-10 text-lg md:text-xl font-light italic leading-loose">
-                  "Building digital ecosystems that bridge the gap between complex engineering and intuitive human experience. I specialize in crafting high-performance, scalable applications with a focus on clean architecture and immersive UI/UX."
-               </p>
+            <div className="glass-card p-8 md:p-12 max-w-2xl mx-auto">
+              <p className="text-slate-200 text-lg md:text-xl leading-relaxed font-light">
+                Full-stack developer passionate about creating scalable web applications and immersive user experiences. Specializing in modern JavaScript frameworks, cloud architecture, and performance optimization.
+              </p>
             </div>
          </section>
-
-         {/* Origins */}
          <section>
             <div className="flex items-center gap-3 text-purple-400 font-bold mb-6">
                <span className="text-lg">##</span>
@@ -60,8 +51,6 @@ const About = () => {
                ))}
             </div>
          </section>
-
-         {/* Technical Log */}
          <section className="pt-12">
             <div className="p-8 bg-black/40 rounded-3xl border border-dashed border-slate-800 relative overflow-hidden group">
                <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-cyan-500/20 to-transparent scale-x-0 group-hover:scale-x-100 transition-transform duration-700" />
