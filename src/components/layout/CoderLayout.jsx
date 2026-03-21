@@ -56,7 +56,7 @@ const CoderLayout = ({ children }) => {
   }
 
   return (
-    <div className="h-screen flex flex-col bg-[#0b0e14]/80 backdrop-blur-md text-[#c9d1d9] font-mono selection:bg-cyan-500/30 overflow-hidden">
+      <div className="h-screen flex flex-col bg-[#0b0e14]/80 backdrop-blur-md text-[#c9d1d9] font-mono selection:bg-cyan-500/30 overflow-hidden">
       {/* Title Bar */}
       <div className="h-9 glass-2 flex justify-between items-center px-4 shrink-0 z-50">
         <div className="flex items-center gap-2 text-xs text-slate-400">
@@ -74,7 +74,7 @@ const CoderLayout = ({ children }) => {
         {/* Activity Bar */}
         <div className="w-12 bg-[#090c10]/80 border-r border-slate-800/50 flex flex-col items-center py-4 gap-6 shrink-0">
            <FaFolder className={`cursor-pointer transition-colors ${isSidebarOpen ? 'text-white' : 'text-slate-500 hover:text-white'}`} size={20} title="Explorer" onClick={() => setIsSidebarOpen(!isSidebarOpen)} />
-           <FaSearch className="text-slate-500 hover:text-white cursor-pointer transition-colors" size={20} title="Search" onClick={() => window.alert("Global search functionality coming soon!")} />
+           {/* Search icon removed */}
            <Link to="/github" className="flex items-center justify-center">
               <FaGithub className={`cursor-pointer transition-colors ${location.pathname === '/github' ? 'text-white' : 'text-slate-500 hover:text-white'}`} size={20} title="Source Control" />
            </Link>

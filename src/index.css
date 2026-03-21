@@ -234,4 +234,4 @@ h1, h2, h3, h4, h5, h6 {
 
 .reveal.active {
   @apply opacity-100 translate-y-0;
-}
+}

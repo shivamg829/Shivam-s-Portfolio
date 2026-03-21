@@ -11,9 +11,9 @@ import cvFile from '../assets/SHIVAM_CV.pdf'
 const Home = () => {
   const stats = [
     { number: '250+', label: 'DSA Problems', icon: FaTrophy, accent: '#60a5fa' },
-    { number: '3+', label: 'Live Projects', icon: FaProjectDiagram, accent: '#60a5fa' },
-    { number: '10+', label: 'Technologies', icon: FaLaptopCode, accent: '#60a5fa' },
-    { number: '4+', label: 'Certifications', icon: FaCode, accent: '#60a5fa' },
+    { number: '5+', label: 'Live Projects', icon: FaProjectDiagram, accent: '#60a5fa' },
+    { number: '12+', label: 'Technologies', icon: FaLaptopCode, accent: '#60a5fa' },
+    { number: '6+', label: 'Certificate', icon: FaCode, accent: '#60a5fa' },
   ]
 
   const quickLinks = [
@@ -25,14 +25,11 @@ const Home = () => {
 
   return (
     <div className="p-6 font-mono h-full flex flex-col w-full text-[#c9d1d9]">
-
-      {/* Hero Header */}
       <motion.div
         initial={{ opacity: 0, y: -10 }}
         animate={{ opacity: 1, y: 0 }}
         className="flex flex-col md:flex-row gap-8 items-start mb-10 pb-8 border-b border-[#21262d]"
       >
-        {/* Profile Image */}
         <div className="relative shrink-0">
           <div className="absolute inset-0 bg-sky-500/10 blur-3xl rounded-full" />
           <div className="w-36 h-36 rounded-2xl border border-[#30363d] p-1.5 relative z-10 overflow-hidden bg-[#161b22]">
@@ -41,7 +38,6 @@ const Home = () => {
           <span className="absolute -bottom-1.5 -right-1.5 w-5 h-5 bg-sky-400 rounded-full border-2 border-[#0d1117] animate-pulse shadow-[0_0_10px_rgba(96,165,250,0.6)]" />
         </div>
 
-        {/* Info */}
         <div className="flex-1 space-y-3 pt-1">
           <div className="flex items-center gap-2">
             <span className="px-2 py-0.5 bg-sky-500/10 text-sky-400 text-[10px] font-bold rounded border border-sky-500/20 flex items-center gap-1.5">
@@ -77,14 +73,8 @@ const Home = () => {
           </div>
         </div>
       </motion.div>
-
-      {/* Main Grid */}
       <div className="grid lg:grid-cols-3 gap-6 flex-1 overflow-auto custom-scrollbar pr-1">
-
-        {/* Left: Stats + Bio */}
         <div className="lg:col-span-2 space-y-6">
-
-          {/* Stats Grid */}
           <div className="bg-[#161b22] rounded-xl border border-[#30363d] p-6">
             <div className="text-[10px] text-[#8b949e] uppercase tracking-[0.3em] font-black mb-5 flex items-center gap-2">
               <span className="w-6 h-px bg-[#30363d]" /> stats.json
@@ -105,8 +95,6 @@ const Home = () => {
               ))}
             </div>
           </div>
-
-          {/* Bio */}
           <div className="bg-[#161b22] rounded-xl border border-[#30363d] p-6 relative overflow-hidden group">
             <div className="absolute -right-8 -top-8 w-32 h-32 bg-sky-500/5 blur-3xl group-hover:bg-sky-500/10 transition-colors" />
             <div className="text-[10px] text-[#8b949e] uppercase tracking-[0.3em] font-black mb-4 flex items-center gap-2">
@@ -127,8 +115,6 @@ const Home = () => {
             </div>
           </div>
         </div>
-
-        {/* Right: Quick Links + Terminal */}
         <div className="space-y-6">
           <div className="bg-[#161b22] rounded-xl border border-[#30363d] p-5 flex flex-col gap-3">
             <div className="text-[10px] text-[#8b949e] uppercase tracking-[0.3em] font-black mb-1">Quick Access</div>
@@ -147,8 +133,6 @@ const Home = () => {
               </motion.div>
             ))}
           </div>
-
-          {/* Terminal Block */}
           <div className="bg-[#0d1117] rounded-xl border border-dashed border-[#30363d] p-5 relative overflow-hidden group">
             <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-sky-500/30 to-transparent scale-x-0 group-hover:scale-x-100 transition-transform duration-700" />
             <div className="font-mono text-[11px] space-y-1.5">
@@ -163,8 +147,6 @@ const Home = () => {
           </div>
         </div>
       </div>
-
-      {/* Footer Bar */}
       <div className="mt-6 pt-4 border-t border-[#21262d] flex justify-between items-center text-[10px] text-[#484f58] font-bold uppercase tracking-widest">
         <span>Build: portfolio-v2.1.0</span>
         <div className="flex gap-4 items-center">
@@ -175,5 +157,4 @@ const Home = () => {
     </div>
   )
 }
-
 export default Home
