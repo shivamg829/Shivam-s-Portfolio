@@ -22,6 +22,15 @@ const Projects = () => {
     githubLink: "https://github.com/shivamg829/airbnb-clone-backend",
   },
   {
+    id: 2,
+    title: "APIx",
+    description: "Explore powerful API integrations. Weather, shopping, recipes, and news - all in one beautiful platform.",
+    technologies: ["MongoDB", "Express", "EJS", "Node.js", "Tailwind CSS"],
+    category: "React/API Integration",
+    liveLink: "https://magnificent-rabanadas-4767f5.netlify.app/",
+    githubLink: "https://github.com/shivamg829/apix",
+  },
+  {
     id: 3,
     title: "Weatherly - Real-time Weather App",
     description: "A responsive frontend application built with React to fetch and display current weather data using a third-party API. Features custom components for loading and data display.",
