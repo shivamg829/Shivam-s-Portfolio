@@ -22,7 +22,7 @@ const Projects = () => {
     githubLink: "https://github.com/shivamg829/airbnb-clone-backend",
   },
   {
-    id: 2,
+    id: 3,
     title: "APIx",
     description: "Explore powerful API integrations. Weather, shopping, recipes, and news - all in one beautiful platform.",
     technologies: ["MongoDB", "Express", "EJS", "Node.js", "Tailwind CSS"],
@@ -31,7 +31,7 @@ const Projects = () => {
     githubLink: "https://github.com/shivamg829/apix",
   },
   {
-    id: 3,
+    id: 4,
     title: "Weatherly - Real-time Weather App",
     description: "A responsive frontend application built with React to fetch and display current weather data using a third-party API. Features custom components for loading and data display.",
     technologies: ["React", "Custom API Fetching", "CSS"],
@@ -40,7 +40,7 @@ const Projects = () => {
     githubLink: "https://github.com/shivamg829/weatherly",
   },
   {
-    id: 4,
+    id: 5,
     title: "Password Generator",
     description: "A responsive react application that generates secure passwords based on user-defined criteria, including length and character types. Features a user-friendly interface and real-time password strength assessment.",
     technologies: ["React", "CSS"],
