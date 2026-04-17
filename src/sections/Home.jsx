@@ -10,7 +10,7 @@ import cvFile from '../assets/SHIVAM_CV.pdf'
 
 const Home = () => {
   const stats = [
-    { number: '250+', label: 'DSA Problems', icon: FaTrophy, accent: '#60a5fa' },
+    { number: '300+', label: 'DSA Problems', icon: FaTrophy, accent: '#60a5fa' },
     { number: '5+', label: 'Live Projects', icon: FaProjectDiagram, accent: '#60a5fa' },
     { number: '12+', label: 'Technologies', icon: FaLaptopCode, accent: '#60a5fa' },
     { number: '6+', label: 'Certificate', icon: FaCode, accent: '#60a5fa' },
