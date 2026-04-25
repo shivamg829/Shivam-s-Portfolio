@@ -4,9 +4,9 @@ import { SiLeetcode } from 'react-icons/si'
 
 const LeetCode = () => {
   const stats = [
-    { label: "Total Solved", value: "307", color: "green" },
-    { label: "Easy", value: "138", color: "blue" },
-    { label: "Medium", value: "142", color: "yellow" },
+    { label: "Total Solved", value: "315", color: "green" },
+    { label: "Easy", value: "142", color: "blue" },
+    { label: "Medium", value: "146", color: "yellow" },
     { label: "Hard", value: "27", color: "red" },
   ]
 
